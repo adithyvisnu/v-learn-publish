@@ -1,0 +1,14 @@
+{
+  "name": "v-learn-publish",
+  "version": "1.0.0",
+  "description": "This is a testing package for publishing on npmjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Adithya Visnu <adithyavisnu@gmail.com>",
+  "license": "ISC"
+}
