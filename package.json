@@ -4,11 +4,20 @@
   "description": "This is a testing package for publishing on npmjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha \"./{,!(node_modules)/**}/*.test.js\" --exit"
   },
   "keywords": [
     "test"
   ],
   "author": "Adithya Visnu <adithyavisnu@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.1.0"
+  }
 }
